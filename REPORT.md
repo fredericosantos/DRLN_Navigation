@@ -15,16 +15,16 @@ I used the standard DQN Agent for this project. I used the recently released Rec
 
 The hyperparameters I chose for this particular agent were:
 
-Buffer size (buffer_size): int(1e5)
-Batch Size (batch_size): 128
-Discount factor (gamma): 0.99
-Soft update of target parameters (tau): 1e-3
-How many steps it takes to update the network (update_every): 4
-Epsilon starting value (eps_start): 1.0
-Epsilon decay (eps_decay): 0.96
-Epsilon minimum value (eps_end): 0.01
-Maximum steps to take during an episode (max_t): 1000
-Learning rate (lr) = 1e-5
+- Buffer size (buffer_size): int(1e5)
+- Batch Size (batch_size): 128
+- Discount factor (gamma): 0.99
+- Soft update of target parameters (tau): 1e-3
+- How many steps it takes to update the network (update_every): 4
+- Epsilon starting value (eps_start): 1.0
+- Epsilon decay (eps_decay): 0.96
+- Epsilon minimum value (eps_end): 0.01
+- Maximum steps to take during an episode (max_t): 1000
+- Learning rate (lr) = 1e-5
 
 I've found that setting the epsilon decay to 0.96 improved the agent's learning time the most.
 
