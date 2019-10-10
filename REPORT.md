@@ -38,7 +38,7 @@ Using a replay buffer that randomly samples from the experiences memory, the age
 
 ![Random loose samples][image1]
 
-Using a replay buffer that randomly selects 2 batches of experiences next to each other, the agent was able to solve the enviroment in 380 steps.
+Using a replay buffer that randomly selects multiple batches of experiences next to each other, the agent was able to solve the enviroment in 380 steps.
 
 ![Random batches of samples][image2]
 
