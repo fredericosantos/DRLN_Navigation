@@ -13,7 +13,7 @@ I used the standard DQN Agent for this project. I used the recently released Rec
 
 ### Hyperparameters
 
-The hyperparameters I chose for this particular agent were:
+The hyperparameters values I selected were:
 
 - Buffer size (buffer_size): int(1e5)
 - Batch Size (batch_size): 128
